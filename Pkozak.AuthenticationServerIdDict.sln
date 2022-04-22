@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pkozak.AuthenticationServerIdDict", "Pkozak.AuthenticationServerIdDict\Pkozak.AuthenticationServerIdDict.csproj", "{D19F6BDB-9D59-4BC4-8545-BC4B30A6716A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pkozak.AuthenticationServerIdDict", "Pkozak.AuthenticationServerIdDict\Pkozak.AuthenticationServerIdDict.csproj", "{D19F6BDB-9D59-4BC4-8545-BC4B30A6716A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFramework", "{0A9E5B7F-0AA4-465B-A778-087D27DF1FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pkozak.AuthenticationServerIdDict.EntityFramework", "Pkozak.AuthenticationServerIdDict.EntityFramework\Pkozak.AuthenticationServerIdDict.EntityFramework.csproj", "{E0517448-E574-46E0-98E4-92D3B9797B11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{D19F6BDB-9D59-4BC4-8545-BC4B30A6716A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D19F6BDB-9D59-4BC4-8545-BC4B30A6716A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D19F6BDB-9D59-4BC4-8545-BC4B30A6716A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0517448-E574-46E0-98E4-92D3B9797B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0517448-E574-46E0-98E4-92D3B9797B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0517448-E574-46E0-98E4-92D3B9797B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0517448-E574-46E0-98E4-92D3B9797B11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0517448-E574-46E0-98E4-92D3B9797B11} = {0A9E5B7F-0AA4-465B-A778-087D27DF1FBF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74507862-7CC3-43EA-82CA-ABB76967BEC2}
