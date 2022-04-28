@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenIddict.AspNetCore" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pkozak.AuthenticationServerIdDict.EntityFramework\Pkozak.AuthenticationServerIdDict.EntityFramework.csproj" />
+    <ProjectReference Include="..\Pkozak.AuthenticationServerIdDict.Shared\Pkozak.AuthenticationServerIdDict.Shared.csproj" />
+  </ItemGroup>
 
 </Project>
